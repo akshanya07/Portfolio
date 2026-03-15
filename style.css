@@ -1,0 +1,163 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #100811;
+    color: antiquewhite;
+
+}
+
+
+.heading {
+    display: flex;
+}
+
+img {
+    width: 220px;
+    height: auto;
+    opacity: 90%;
+}
+
+.Name {
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: url('https://img.freepik.com/free-photo/color-smoke-abstract-wallpaper-aesthetic-background-design_53876-133390.jpg?semt=ais_rp_progressive&w=740&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a:hover {
+
+    color: #750b70;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.project-card {
+    background: #100811;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+footer {
+    background: url('https://img.freepik.com/free-photo/color-smoke-abstract-wallpaper-aesthetic-background-design_53876-133390.jpg?semt=ais_rp_progressive&w=740&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+footer a:hover {
+    color: #750b70;
+}
+
+.projects a:hover {
+    color: #750b70;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px) {
+
+    .project-card {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px;
+    }
+}
+
+.ablist {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        padding-top: 5px;
+    }
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.abdiv {
+    padding: 20px 5%;
+    border-color: rgb(72, 11, 112);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5%;
+    margin: auto;
+}
+
+#colist {
+    margin-left: 60px;
+    padding: 2%;
+}
+
+.coimg {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+    li {
+        padding-right: 25px;
+
+    }
+
+    i {
+        color: white;
+    }
+}
+
+.follow {
+    text-align: center;
+}
+
+.proj {
+    height: 60vh;
+    margin-top: 40px;
+}
