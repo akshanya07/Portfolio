@@ -19,3 +19,4 @@ CSS
 
 ## Hosting
 The website is hosted using GitHub Pages.
+link: https://akshanya07.github.io/Portfolio/
